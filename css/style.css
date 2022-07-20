@@ -387,6 +387,8 @@ margin-left: 93px;
     color: var(--social-icon-color);
     border-radius: 50%;
     transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
+    transition-duration: 250ms;
+    transition-timing-function: var(--animation);
 }
 
 .social-icon:hover,
@@ -543,7 +545,7 @@ address {
     transition: transform 250ms var(--animation);
 }
 
-.portfolio-overlay:hover
+.portfolio-overlay:hover,
 .portfolio-overlay:focus {
     transform: translateY(0%);
 }
@@ -649,6 +651,8 @@ address {
     color: var(--social-icon-color);
     border: 1px solid var(--social-icon-color);
     border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: var(--animation);
 }
 
 .clients-link:hover,
@@ -706,6 +710,8 @@ address {
     color: var(--primery-white-color);
     background-color: var(--footer-social-link);
     border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: var(--animation);
 }
 
 .footer-social-link:hover,
