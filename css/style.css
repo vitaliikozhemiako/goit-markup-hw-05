@@ -514,33 +514,17 @@ address {
     overflow: hidden;
 }
 
-.portfolio-img::before {
-    display: inline-block;
+.portfolio-overlay {
+    display: flex;
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(33, 150, 243, 0.9);
-    transition: transform 250ms var(--animation);
-    transform: translateY(100%);
-}
-
-.portfolio-img:hover::before, 
-.portfolio-img:focus::before {
-    transform: translateY(0%);
-}
-
-.portfolio-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition: transform 250ms var(--animation);
 }
