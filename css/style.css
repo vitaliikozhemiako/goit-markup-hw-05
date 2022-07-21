@@ -640,7 +640,7 @@ address {
     border: 1px solid var(--social-icon-color);
     border-radius: 4px;
     transition-duration: 250ms;
-    transition-property: color;
+    transition-property: color, border;
     transition-timing-function: var(--animation);
 }
 
